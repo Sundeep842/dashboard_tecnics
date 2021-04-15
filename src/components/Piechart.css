@@ -1,0 +1,13 @@
+#piechart_svg {
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    background-color: #eee;
+    transition-duration: 10s;
+  }
+
+path:hover  {
+    fill: #1E90FF;
+    padding-left: 3px;
+  }

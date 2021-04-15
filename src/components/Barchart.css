@@ -1,0 +1,8 @@
+ 
+.barchart {
+    background: #eee;
+    overflow: visible;
+    margin-bottom: 2rem;
+    display: block;
+    height:190px
+  }

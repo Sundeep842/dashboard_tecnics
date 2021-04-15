@@ -1,0 +1,59 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    height:100%;
+    flex-direction: column;
+}
+.navbar{
+    height: 30px;
+    color: white;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.sidebar{
+    background-color: #56A5EC;
+    height:100vh;
+    flex:0;
+    align-items: center;
+    padding:10px
+}
+.mainbar{
+    display: flex;
+    height:100%;   
+}
+.bar_pie_charts{
+    display: flex;
+    max-width: max-content;
+    flex:5;
+}
+.main_piechart,.main_barchart, .main_packlayoutmap{
+    margin: 15px;
+    flex:1;
+    height:max-content;
+
+}
+.main_label{
+    color:white;
+
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.supplier_svg path{
+    fill: white;
+}
+.main_label1{
+    font-weight: bold;
+    font-size:  1.3rem;
+}
+.main_label2{
+    font-weight: bold;
+    font-size:  2rem;
+}
+
+.main_piechart div,.main_barchart div{
+    flex:1;
+    margin-top:20px
+}

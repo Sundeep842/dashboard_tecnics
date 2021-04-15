@@ -1,0 +1,28 @@
+{
+    "data": {
+        "id": "World"
+    },
+    "children": [
+        {
+            "data": {
+                "id": "Asia",
+                "value":10
+            }
+        
+       },
+        {
+        "data":{
+            "id": "Africa",
+            "value":10
+
+        }
+        },
+        {
+            "data":{
+                "id":"America",
+                "value":10
+
+            }
+        }
+    ]
+}
